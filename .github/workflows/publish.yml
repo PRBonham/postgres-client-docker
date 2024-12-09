@@ -16,7 +16,7 @@ jobs:
     strategy:
       # postgres versions can be added here
       matrix:
-        pg_version: [14, 15, 16]
+        pg_version: [15, 16, 17]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
